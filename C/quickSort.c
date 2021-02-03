@@ -58,7 +58,7 @@ void QuickSort(int *arr, int left, int right)
     }
 
     if (left < right) {
-        mid = Partition1(arr, left, right);
+        mid = Partition(arr, left, right);
         QuickSort(arr, left, mid - 1);
         QuickSort(arr, mid + 1, right);    
     }
